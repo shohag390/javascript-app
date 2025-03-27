@@ -8,6 +8,12 @@
 
 .bg-gradient {
     background-image: linear-gradient(to bottom, #ffa522, #ff701b);
+    transition: .5s;
+    box-shadow: 3px 3px 2px #24429e;
+}
+
+.bg-gradient:hover {
+    box-shadow: 0px 0px 0px #8ca3fb;
 }
 
 .menu-item:hover {
