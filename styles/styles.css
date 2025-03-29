@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
+html {
+    font-family: "Winky Sans", sans-serif;
+}
+
 .text-gradient {
     background-image: linear-gradient(#ffa522, #ff701b);
     color: transparent;
@@ -18,15 +22,16 @@
 
 .bg-gradient_two {
     background-image: linear-gradient(to bottom, #ffa522, #ff701b);
+    transition: .5s;
+    box-shadow: 3px 3px 2px #16006c;
+}
+
+.bg-gradient_two:hover {
+    box-shadow: none;
 }
 
 .menu-item:hover {
     background-image: linear-gradient(#ffa522, #ff701b);
     color: transparent;
     background-clip: text;
-}
-
-
-html {
-    font-family: "Winky Sans", sans-serif;
 }
